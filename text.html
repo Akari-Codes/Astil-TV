@@ -1,0 +1,15 @@
+<script>
+import fs from 'node:fs'; 
+
+const content = `A monk asked Chimon,
+  “Before the lotus blossom has
+  emerged from the water, what
+  is it?” Chimon said, “A lotus
+  blossom.” The monk pursued, 
+  “After it has come out of the
+  water, what is it?" Chimon
+  replied, “Lotus leaves."`;
+
+try {
+  fs.writeFileSync('koan.txt', content);
+</script>
